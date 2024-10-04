@@ -17,43 +17,43 @@ Claro! Vamos explorar cada um desses conceitos em JavaScript:
 
 ##### Strings são sequências de caracteres, escritas entre aspas simples ou duplas.
 
-javascript
+```javascript
 let str1 = 'Texto simples';
 let str2 = "Outro texto";
 let str3 = `Texto com interpolação: ${str1}`;
-
+```
 
 ### 2. *Variável*
 
 ##### As variáveis ​​podem ser usadas para armazenar dados em um programa, como strings, números, objetos JSON ou valores booleanos. Em JavaScript, existem três tipos de variáveis ​​diferentes: var , let , e const .
 
 *var: Declara variáveis com escopo de função ou global.*
-  javascript
+  ```javascript
   var idade = 30;
-  
+  ```
 
 *let: Declara variáveis com escopo de bloco.*
-  javascript
+ ``` javascript
   let nome = "Maria";
-  
+  ```
 
 *const: Declara variáveis com escopo de bloco que não podem ser reatribuídas.*
-  javascript
+  ```javascript
   const pi = 3.14;
-  
+  ```
 
 ### 3. *Number*
 
 
-javascript
+```javascript
 let inteiro = 42;
 let decimal = 3.14;
-
+```
 
 ### 4. *Switch Case*
 
 
-javascript
+```javascript
 let cor = 'verde';
 
 switch (cor) {
@@ -69,12 +69,12 @@ switch (cor) {
   default:
     console.log('Cor desconhecida.');
 }
-
+```
 
 ### 5. *If e Else*
 
 
-javascript
+```javascript
 let idade = 18;
 
 if (idade >= 18) {
@@ -82,10 +82,9 @@ if (idade >= 18) {
 } else {
   console.log('Você é menor de idade.');
 }
+```
 
-
-
-javascript
+```javascript
 let nota = 85;
 
 if (nota >= 90) {
@@ -97,31 +96,31 @@ if (nota >= 90) {
 } else {
   console.log('Nota abaixo de C');
 }
+```
 
 
 ### 6. *Prompt*
 
 
-javascript
+```javascript
 let nome = prompt('Qual é o seu nome?');
 console.log('Olá, ${nome}!`);
-
+```
 
 ### 7. *Concatenação*
 
 
-  javascript
+ ``` javascript
   let primeiroNome = 'John';
   let sobrenome = 'Doe';
   let nomeCompleto = primeiroNome + ' ' + sobrenome;
   console.log(nomeCompleto); // "John Doe"
-  
+  ```
 
-  javascript
+  ```javascript
   let primeiroNome = 'John';
   let sobrenome = 'Doe';
   let nomeCompleto = `${primeiroNome} ${sobrenome}`;
   console.log(nomeCompleto); // "John Doe"
-
+```
 ## Atividades desenvolvidas
-Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
